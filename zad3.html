@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var x = prompt("Vnesi X")
+        var y = prompt("Vnesi Y")
+        x = parseInt(x)
+        y = parseInt(y)
+
+        if(!isNaN(x) && !isNaN(y))
+        {
+            if(x > 0)
+            {
+                if(y>0)
+                {
+                    console.log("I kvadrant")
+                }
+                else if(y<0)
+                {
+                    console.log("IV kvadrant")
+                }
+                else
+                {
+                    console.log("+ X ")
+                }
+            }
+            else if (x < 0)
+            {
+                if(y>0)
+                {
+                    console.log("II kvadrant")
+                }
+                else if(y<0)
+                {
+                    console.log("III kvadrant")
+                }
+                else
+                {
+                    console.log("- X ")
+                }
+            }
+            else
+            {
+                if(y>0)
+                {
+                    console.log("+ Y")
+                }
+                else if(y<0)
+                {
+                    console.log("- Y")
+                }
+                else
+                {
+                    console.log("O")
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
